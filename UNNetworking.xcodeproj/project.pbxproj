@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		756285911923B1AF00127E24 /* UNRequestFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 756285901923B1AF00127E24 /* UNRequestFile.m */; };
+		759B1FA418B3690F0016BF72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759B1FA318B3690F0016BF72 /* Foundation.framework */; };
+		759B1FA918B3690F0016BF72 /* UNNetworking.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 759B1FA818B3690F0016BF72 /* UNNetworking.h */; };
+		759B1FB218B3690F0016BF72 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759B1FB118B3690F0016BF72 /* XCTest.framework */; };
+		759B1FB318B3690F0016BF72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759B1FA318B3690F0016BF72 /* Foundation.framework */; };
+		759B1FB518B3690F0016BF72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759B1FB418B3690F0016BF72 /* UIKit.framework */; };
+		759B1FB818B3690F0016BF72 /* libUNNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 759B1FA018B3690F0016BF72 /* libUNNetworking.a */; };
+		759B1FBE18B3690F0016BF72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 759B1FBC18B3690F0016BF72 /* InfoPlist.strings */; };
+		759B1FC018B3690F0016BF72 /* UNNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 759B1FBF18B3690F0016BF72 /* UNNetworkingTests.m */; };
+		759B1FCF18B369200016BF72 /* UNCodingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 759B1FCA18B369200016BF72 /* UNCodingUtil.m */; };
+		759B1FD018B369200016BF72 /* UNMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 759B1FCC18B369200016BF72 /* UNMutableURLRequest.m */; };
+		759B1FD118B369200016BF72 /* UNURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 759B1FCE18B369200016BF72 /* UNURLConnection.m */; };
+		75A8494718BDF537007DB8CA /* UNCodingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A8494618BDF537007DB8CA /* UNCodingObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		759B1FB618B3690F0016BF72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 759B1F9818B3690F0016BF72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 759B1F9F18B3690F0016BF72;
+			remoteInfo = UNNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		759B1F9E18B3690F0016BF72 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				759B1FA918B3690F0016BF72 /* UNNetworking.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7562858F1923B1AF00127E24 /* UNRequestFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNRequestFile.h; sourceTree = "<group>"; };
+		756285901923B1AF00127E24 /* UNRequestFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNRequestFile.m; sourceTree = "<group>"; };
+		759B1FA018B3690F0016BF72 /* libUNNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUNNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		759B1FA318B3690F0016BF72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		759B1FA718B3690F0016BF72 /* UNNetworking-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UNNetworking-Prefix.pch"; sourceTree = "<group>"; };
+		759B1FA818B3690F0016BF72 /* UNNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UNNetworking.h; sourceTree = "<group>"; };
+		759B1FB018B3690F0016BF72 /* UNNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UNNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		759B1FB118B3690F0016BF72 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		759B1FB418B3690F0016BF72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		759B1FBB18B3690F0016BF72 /* UNNetworkingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UNNetworkingTests-Info.plist"; sourceTree = "<group>"; };
+		759B1FBD18B3690F0016BF72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		759B1FBF18B3690F0016BF72 /* UNNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UNNetworkingTests.m; sourceTree = "<group>"; };
+		759B1FC918B369200016BF72 /* UNCodingUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNCodingUtil.h; sourceTree = "<group>"; };
+		759B1FCA18B369200016BF72 /* UNCodingUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNCodingUtil.m; sourceTree = "<group>"; };
+		759B1FCB18B369200016BF72 /* UNMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNMutableURLRequest.h; sourceTree = "<group>"; };
+		759B1FCC18B369200016BF72 /* UNMutableURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNMutableURLRequest.m; sourceTree = "<group>"; };
+		759B1FCD18B369200016BF72 /* UNURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNURLConnection.h; sourceTree = "<group>"; };
+		759B1FCE18B369200016BF72 /* UNURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNURLConnection.m; sourceTree = "<group>"; };
+		75A8494518BDF537007DB8CA /* UNCodingObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNCodingObject.h; sourceTree = "<group>"; };
+		75A8494618BDF537007DB8CA /* UNCodingObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNCodingObject.m; sourceTree = "<group>"; };
+		75A8494818BDF54D007DB8CA /* UNCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNCoding.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		759B1F9D18B3690F0016BF72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759B1FA418B3690F0016BF72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759B1FAD18B3690F0016BF72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759B1FB218B3690F0016BF72 /* XCTest.framework in Frameworks */,
+				759B1FB518B3690F0016BF72 /* UIKit.framework in Frameworks */,
+				759B1FB818B3690F0016BF72 /* libUNNetworking.a in Frameworks */,
+				759B1FB318B3690F0016BF72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		759B1F9718B3690F0016BF72 = {
+			isa = PBXGroup;
+			children = (
+				759B1FA518B3690F0016BF72 /* UNNetworking */,
+				759B1FB918B3690F0016BF72 /* UNNetworkingTests */,
+				759B1FA218B3690F0016BF72 /* Frameworks */,
+				759B1FA118B3690F0016BF72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		759B1FA118B3690F0016BF72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				759B1FA018B3690F0016BF72 /* libUNNetworking.a */,
+				759B1FB018B3690F0016BF72 /* UNNetworkingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		759B1FA218B3690F0016BF72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				759B1FA318B3690F0016BF72 /* Foundation.framework */,
+				759B1FB118B3690F0016BF72 /* XCTest.framework */,
+				759B1FB418B3690F0016BF72 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		759B1FA518B3690F0016BF72 /* UNNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				75A8494818BDF54D007DB8CA /* UNCoding.h */,
+				75A8494518BDF537007DB8CA /* UNCodingObject.h */,
+				75A8494618BDF537007DB8CA /* UNCodingObject.m */,
+				759B1FC918B369200016BF72 /* UNCodingUtil.h */,
+				759B1FCA18B369200016BF72 /* UNCodingUtil.m */,
+				759B1FCB18B369200016BF72 /* UNMutableURLRequest.h */,
+				759B1FCC18B369200016BF72 /* UNMutableURLRequest.m */,
+				7562858F1923B1AF00127E24 /* UNRequestFile.h */,
+				756285901923B1AF00127E24 /* UNRequestFile.m */,
+				759B1FCD18B369200016BF72 /* UNURLConnection.h */,
+				759B1FCE18B369200016BF72 /* UNURLConnection.m */,
+				759B1FA818B3690F0016BF72 /* UNNetworking.h */,
+				759B1FA618B3690F0016BF72 /* Supporting Files */,
+			);
+			path = UNNetworking;
+			sourceTree = "<group>";
+		};
+		759B1FA618B3690F0016BF72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				759B1FA718B3690F0016BF72 /* UNNetworking-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		759B1FB918B3690F0016BF72 /* UNNetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				759B1FBF18B3690F0016BF72 /* UNNetworkingTests.m */,
+				759B1FBA18B3690F0016BF72 /* Supporting Files */,
+			);
+			path = UNNetworkingTests;
+			sourceTree = "<group>";
+		};
+		759B1FBA18B3690F0016BF72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				759B1FBB18B3690F0016BF72 /* UNNetworkingTests-Info.plist */,
+				759B1FBC18B3690F0016BF72 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		759B1F9F18B3690F0016BF72 /* UNNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759B1FC318B3690F0016BF72 /* Build configuration list for PBXNativeTarget "UNNetworking" */;
+			buildPhases = (
+				759B1F9C18B3690F0016BF72 /* Sources */,
+				759B1F9D18B3690F0016BF72 /* Frameworks */,
+				759B1F9E18B3690F0016BF72 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UNNetworking;
+			productName = UNNetworking;
+			productReference = 759B1FA018B3690F0016BF72 /* libUNNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		759B1FAF18B3690F0016BF72 /* UNNetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759B1FC618B3690F0016BF72 /* Build configuration list for PBXNativeTarget "UNNetworkingTests" */;
+			buildPhases = (
+				759B1FAC18B3690F0016BF72 /* Sources */,
+				759B1FAD18B3690F0016BF72 /* Frameworks */,
+				759B1FAE18B3690F0016BF72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				759B1FB718B3690F0016BF72 /* PBXTargetDependency */,
+			);
+			name = UNNetworkingTests;
+			productName = UNNetworkingTests;
+			productReference = 759B1FB018B3690F0016BF72 /* UNNetworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		759B1F9818B3690F0016BF72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Upnext Ltd.";
+			};
+			buildConfigurationList = 759B1F9B18B3690F0016BF72 /* Build configuration list for PBXProject "UNNetworking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 759B1F9718B3690F0016BF72;
+			productRefGroup = 759B1FA118B3690F0016BF72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				759B1F9F18B3690F0016BF72 /* UNNetworking */,
+				759B1FAF18B3690F0016BF72 /* UNNetworkingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		759B1FAE18B3690F0016BF72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759B1FBE18B3690F0016BF72 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		759B1F9C18B3690F0016BF72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A8494718BDF537007DB8CA /* UNCodingObject.m in Sources */,
+				756285911923B1AF00127E24 /* UNRequestFile.m in Sources */,
+				759B1FCF18B369200016BF72 /* UNCodingUtil.m in Sources */,
+				759B1FD018B369200016BF72 /* UNMutableURLRequest.m in Sources */,
+				759B1FD118B369200016BF72 /* UNURLConnection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759B1FAC18B3690F0016BF72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759B1FC018B3690F0016BF72 /* UNNetworkingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		759B1FB718B3690F0016BF72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 759B1F9F18B3690F0016BF72 /* UNNetworking */;
+			targetProxy = 759B1FB618B3690F0016BF72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		759B1FBC18B3690F0016BF72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				759B1FBD18B3690F0016BF72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		759B1FC118B3690F0016BF72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		759B1FC218B3690F0016BF72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		759B1FC418B3690F0016BF72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/UNNetworking.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UNNetworking/UNNetworking-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		759B1FC518B3690F0016BF72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/UNNetworking.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UNNetworking/UNNetworking-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		759B1FC718B3690F0016BF72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UNNetworking/UNNetworking-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UNNetworkingTests/UNNetworkingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		759B1FC818B3690F0016BF72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UNNetworking/UNNetworking-Prefix.pch";
+				INFOPLIST_FILE = "UNNetworkingTests/UNNetworkingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		759B1F9B18B3690F0016BF72 /* Build configuration list for PBXProject "UNNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759B1FC118B3690F0016BF72 /* Debug */,
+				759B1FC218B3690F0016BF72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		759B1FC318B3690F0016BF72 /* Build configuration list for PBXNativeTarget "UNNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759B1FC418B3690F0016BF72 /* Debug */,
+				759B1FC518B3690F0016BF72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		759B1FC618B3690F0016BF72 /* Build configuration list for PBXNativeTarget "UNNetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759B1FC718B3690F0016BF72 /* Debug */,
+				759B1FC818B3690F0016BF72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 759B1F9818B3690F0016BF72 /* Project object */;
+}
